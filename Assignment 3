@@ -1,1 +1,6 @@
+<php
+$decimal_num = '55';                //INPUT VALUE
+$binary_num = decbin($decimal_num); //decbin() FUNCTION CONVERTS DECIMAL NUMBER TO BINARY NUMBER
 
+echo $binary_num;         //OUTPUT VALUE
+?>
