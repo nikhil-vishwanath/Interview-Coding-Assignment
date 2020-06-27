@@ -1,1 +1,5 @@
-
+<?php
+$sample_array = array(10,35,8,15,7,9);     //INPUT ARRAY
+$sum_of_array = array_sum($sample_array);   //ADD ALL ELEMENTS OF THE ARRAY
+echo $sum_of_array;         //OUTPUT VALUE
+?>
