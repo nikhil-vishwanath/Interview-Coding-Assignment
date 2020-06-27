@@ -1,1 +1,7 @@
 
+<php
+
+$string = readline('Enter a string : ');    //INPUT FROM USER
+echo $string;   //OUTPUT
+
+?>
