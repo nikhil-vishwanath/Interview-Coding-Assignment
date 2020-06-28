@@ -1,7 +1,92 @@
 <html>
-<body>
-<nav class="" role="navigation">
+<head>
+<!-- CSS FOR THE NAVBAR  -->
+<style type="text/css">
+	.main-nav, .col-xs-12 {
+		margin-top: 15px;
+	}
+	@media (max-width: 767px) {
+	    .main-nav, .col-xs-12 {
+	        margin-top: 0px;
+	    } 
+	}
+  
+	.main-nav, .col-xs-12 {
+    margin-top: 15px;
+  }
+  
+.col-xs-10 {
+  width: 83.33333333%;
+}
 
+.col-xs-10, .col-xs-12 {
+    float: left;
+}
+
+.col-sm-2, .col-xs-10, .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.college-nav ul {
+    padding: 0;
+    margin: 1px 0 0 0;
+}
+
+.college-nav ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+.college-nav ul li a {
+    padding: 30px 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(153, 51, 255);
+    font-family: "Rubik";
+    text-align: center;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+    background-color: transparent;
+    list-style: none;
+    border: 0;
+    margin: 0;
+}
+</style>
+</head>
+<body>
+
+<nav class="college-nav" role="navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 col-xs-12">
+				<div id="college-logo"><a href="index.php">HOME</a></div>
+			</div>
+			<div class="col-xs-10 text-right main-nav">
+				<ul>
+					<li><a href="#" >About Us</a></li>
+                    <li><a href="#" >Contact</a></li>
+					<li><a href="#" >Courses</a></li>
+                    <li><a href="#" >Login</a></li>
+                    <li class="sign-up-btn"><a href="#"><span>Register</span></a></li>
+                </ul>
+			</div>
+        </div>	
+    </div>
 </nav>
+
 </body>
 </html>
